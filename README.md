@@ -1,6 +1,6 @@
 # 📊 Customer Churn Analysis — End-to-End ML Project
 
-> Predicting telecom customer churn using machine learning — from raw data to a deployed Streamlit app and Power BI dashboard.
+> Predicting telecom customer churn using machine learning — from raw data to a deployed Streamlit app.
 
 ---
 
@@ -60,12 +60,10 @@ customer-churn-project/
 │
 ├── app.py                                # Streamlit deployment app
 ├── requirements.txt                      # Python dependencies
-├── POWERBI_GUIDE.md                      # Step-by-step Power BI dashboard guide
 │
 ├── data/
 │   ├── raw/                              # Original unmodified datasets
 │   ├── processed/                        # Cleaned master table + feature matrices
-│   └── powerbi/                          # Power BI-ready CSV exports
 │
 └── models/
     ├── best_model.pkl                    # Trained model
@@ -207,20 +205,6 @@ The Streamlit app (`app.py`) provides:
 - Personalised retention recommendations based on the specific risk factors detected
 - Key driver tags showing *why* the customer was flagged
 
----
-
-## 📊 Power BI Dashboard
-
-See `POWERBI_GUIDE.md` for the complete step-by-step guide to building the 5-page dashboard.
-
-**Dashboard pages:**
-1. **Executive Overview** — KPIs: total customers, churn rate, revenue at risk, model performance
-2. **Customer Segmentation** — Churn by contract, tenure, value tier, internet service
-3. **Churn Analysis** — Behavioural signals: engagement, billing distress, support volume
-4. **Model Insights** — Feature importance (SHAP), probability distribution, high-risk list
-5. **Action Dashboard** — Top 100 at-risk customers with personalised SHAP-based drivers
-
----
 
 ## 📋 Business Recommendations Summary
 
@@ -246,7 +230,6 @@ See `POWERBI_GUIDE.md` for the complete step-by-step guide to building the 5-pag
 | Imbalance handling | imbalanced-learn (SMOTE) |
 | Interpretability | SHAP |
 | Deployment | Streamlit |
-| Dashboard | Power BI Desktop |
 | Environment | Google Colab / local Python |
 
 ---
