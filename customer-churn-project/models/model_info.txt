@@ -1,0 +1,8 @@
+model_name: Logistic Regression
+imbalance_strategy: SMOTE
+threshold: 0.4844
+test_roc_auc: 0.8214
+test_pr_auc: 0.6020
+test_recall: 0.6765
+test_f1: 0.6074
+best_params: {'solver': 'liblinear', 'penalty': 'l1', 'C': 100}
