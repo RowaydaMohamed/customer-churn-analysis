@@ -1,0 +1,42 @@
+gender
+senior_citizen
+partner
+dependents
+tenure
+phone_service
+multiple_lines
+online_security
+online_backup
+device_protection
+tech_support
+streaming_tv
+streaming_movies
+paperless_billing
+monthly_charges
+total_logins
+avg_session_mins
+login_days_active
+days_since_last_login
+total_tickets
+avg_resolution_hours
+max_resolution_hours
+billing_tickets
+technical_tickets
+billing_ticket_ratio
+total_bills
+total_late_payments
+late_payment_rate
+avg_payment_gap
+max_payment_gap
+avg_amount_due
+avg_monthly_spend
+charge_vs_tier_avg
+logins_per_active_day
+num_services
+risk_score
+contract_encoded
+internet_service_Fiber Optic
+internet_service_No
+payment_method_Credit Card (Automatic)
+payment_method_Electronic Check
+payment_method_Mailed Check
